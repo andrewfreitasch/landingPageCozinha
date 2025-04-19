@@ -1,0 +1,89 @@
+   
+#testmonials{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 208px;
+}
+
+
+#chef{
+    width: 500px;
+   
+}
+
+#testmonials .section-h3{
+    font-size: 3rem;
+}
+
+#feedbacks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.feedbacks{
+    display: flex;
+    align-items: center;
+    gap: 24px;    
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+}
+
+.avatar{
+    object-fit: cover;
+}
+
+.feedback-content > p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-content > p > spam{
+    color: #e9a209;
+}
+
+@media screen and (max-width: 1400px){
+    #testmonials{
+        flex-direction: column;
+    }
+
+    #testmonials .section-h3{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #chef{
+        display: none;
+    }
+
+    #testmonials-content{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    #testmonials .section-h3{
+        font-size: 2rem;
+    }
+
+    .feedbacks{
+        flex-direction: column;
+    }
+
+    #testmonials-content{
+        width: 100%;
+    }
+}

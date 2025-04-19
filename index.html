@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- link icons -->
+    <link rel="stylesheet" href="src/styles/style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> food </i>
+
+            <ul id="nav_list">
+                <li class="nav-item active"> <a href="#home"> Início </a> </li>
+                <li class="nav-item"> <a href="#menu"> Cárdapio </a> </li>
+                <li class="nav-item"> <a href="#testmonials"> Avaliações </a> </li>
+            </ul>
+
+            <button class="btn_default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars" id="menu_icon"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"> <a href="#home"> Início </a> </li>
+                <li class="nav-item"> <a href="#menu"> Cárdapio </a> </li>
+                <li class="nav-item"> <a href="#testmonials"> Avaliações </a> </li>
+                <button class="btn_default" id="peçaAgoraMobile">
+                    Peça aqui
+                </button>
+            </ul>
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape">
+
+            </div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum voluptatibus minima, consequuntur
+                    dicta nam quas architecto officia temporibus. Maxime enim inventore laboriosam similique provident
+                    id repellendus natus dolore alias atque.
+                </p>
+
+                <div id="cta-buttons">
+                    <a href="#">
+                        <button class="btn_default" id="botaoCardapio">
+                            Ver cardapio
+                        </button>
+                    </a>
+
+                    <a href="tel:+5551999207908" id="telefoneBotao">
+                        <button class="btn_default fa-solid fa-phone" id="telBotao">
+                        </button>
+                        (51) 999207908
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/pratos.png" alt="pratos">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-h2"> Cardápio </h2>
+            <h3 class="section-h3"> Nossos pratos especias</h3>
+
+            <div id="pratos">
+                <div class="prato">
+                    <div class="coração">
+                        <i class="fa-solid fa-heart"> </i>
+                    </div>
+
+
+                    <img src="src/images/dish.png" alt="prato" class="prato-img">
+
+                    <h3 class="section-h3">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="descriçao-prato"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                        in!</span>
+
+
+                    <div class="avaliaçao">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span> (500+)</span>
+                    </div>
+
+                    <div class="prato-preço">
+                        <h4>R$20,00</h4>
+                        <button class="btn_default" id="button-menu">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="prato">
+                    <div class="coração">
+                        <i class="fa-solid fa-heart"> </i>
+                    </div>
+
+
+                    <img src="src/images/dish2.png" alt="prato" class="prato-img">
+
+                    <h3 class="section-h3">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="descriçao-prato"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                        in!</span>
+
+
+                    <div class="avaliaçao">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span> (500+)</span>
+                    </div>
+
+                    <div class="prato-preço">
+                        <h4>R$20,00</h4>
+                        <button class="btn_default" id="button-menu">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="prato">
+                    <div class="coração">
+                        <i class="fa-solid fa-heart"> </i>
+                    </div>
+
+
+                    <img src="src/images/dish3.png" alt="prato" class="prato-img">
+
+                    <h3 class="section-h3">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="descriçao-prato"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                        in!</span>
+
+
+                    <div class="avaliaçao">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span> (500+)</span>
+                    </div>
+
+                    <div class="prato-preço">
+                        <h4>R$20,00</h4>
+                        <button class="btn_default" id="button-menu">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="prato">
+                    <div class="coração">
+                        <i class="fa-solid fa-heart"> </i>
+                    </div>
+
+
+                    <img src="src/images/dish4.png" alt="prato" class="prato-img">
+
+                    <h3 class="section-h3">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="descriçao-prato"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                        in!</span>
+
+
+                    <div class="avaliaçao">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span> (500+)</span>
+                    </div>
+
+                    <div class="prato-preço">
+                        <h4>R$20,00</h4>
+                        <button class="btn_default" id="button-menu">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="testmonials">
+            <img src="src/images/chef.png" alt="" id="chef">
+
+            <div id="testmonials-content">
+                <h2 class="section-h2"> 
+                    Depoimentos
+                </h2>
+                <h3 class="section-h3"> 
+                    O que os clientes falam sobre nós    
+                </h3>
+                <div id="feedbacks">
+                    <div class="feedbacks">
+                        <img src="src/images/avatar.png" alt="" id="avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulano de tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, architecto iure autem
+                                officia dolorem reprehenderit perspiciatis doloribus? Maxime a molestiae sapiente,
+                                consectetur labore omnis dolorum, debitis, optio officiis expedita iure."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedbacks">
+                        <img src="src/images/avatar.png" alt="" id="avatar">
+                        
+                        <div class="feedback-content">
+                            <p>
+                                Fulano de tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, architecto iure autem
+                                officia dolorem reprehenderit perspiciatis doloribus? Maxime a molestiae sapiente,
+                                consectetur labore omnis dolorum, debitis, optio officiis expedita iure."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn_default">
+                    Ver mais avaliações 
+                </button>
+            </div>
+
+            
+        </section>
+    </main>
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Andrew Freitas Chechi
+            </span>
+            <div class="social-media-buttons">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/script/script.js"></script>
+</body>
+
+</html>
