@@ -52,7 +52,7 @@ header{
 
 @media screen and (max-width: 1170px) {
 
-    #nav_list, .btn_default{
+    #nav_list, #peça-aqui{
         display: none;
     }
 
